@@ -1,0 +1,79 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+header{
+  height: 500px;
+  position: relative;
+}
+
+video{
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -100;
+}
+
+.headerbox{
+  @include padding;
+  img{
+    height: 75px;
+    float: left;
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  z-index: 100;
+}
+
+.mainnav {
+  float: right;
+  li {
+    float: left;
+    margin: 10px;
+    a{
+      text-decoration: none;
+      padding: 15px;
+      background: white;
+      color: $blue;
+      display: block;
+    }
+    a:hover{
+      color: white;
+      background: $blue;
+    }
+  }
+}
+
+.dropdown {
+  position: relative;
+  .dropnav {
+    position: absolute;
+    display: none;
+    li {
+      margin: 0px;
+      width: 150px;
+    }
+  }
+}
+
+.dropdown:hover .dropnav{
+display: block;
+}
+
+.headtext{
+  clear: both;
+  @include verticalalign;
+  h1{
+    font-size: 40px;
+  }
+  p{
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+  }
+}

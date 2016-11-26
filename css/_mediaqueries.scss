@@ -1,0 +1,34 @@
+@media (max-width: 767px) {
+  video {
+    width: auto;
+  }
+
+  .headerbox, .pledge{
+    padding: 10px;
+  }
+
+  .issues {
+    margin: 0px;
+  }
+
+  .issues article {
+    display: block;
+    width: 100%;
+  }
+
+  footer p {
+    width: 100%;
+    float: none;
+    display: block;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 1256px){
+  video {
+    width: auto;
+  }
+
+  .issues article {
+    width: 45%;
+  }
+}
