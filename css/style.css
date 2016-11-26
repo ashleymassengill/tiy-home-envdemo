@@ -24,31 +24,31 @@ ul {
   margin: 0;
   z-index: 100; }
 
-.mainnav {
+.main-nav {
   float: right; }
-  .mainnav li {
+  .main-nav li {
     float: left;
     margin: 10px; }
-    .mainnav li a {
-      text-decoration: none;
-      padding: 15px;
-      background: white;
+    .main-nav li a {
       color: #305291;
-      display: block; }
-    .mainnav li a:hover {
+      display: block;
+      padding: 15px;
+      text-decoration: none;
+      background-color: white; }
+    .main-nav li a:hover {
       color: white;
-      background: #305291; }
+      background-color: #305291; }
 
 .dropdown {
   position: relative; }
-  .dropdown .dropnav {
+  .dropdown .drop-nav {
     position: absolute;
     display: none; }
-    .dropdown .dropnav li {
+    .dropdown .drop-nav li {
       margin: 0px;
       width: 150px; }
 
-.dropdown:hover .dropnav {
+.dropdown:hover .drop-nav {
   display: block; }
 
 .headtext {

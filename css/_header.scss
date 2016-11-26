@@ -30,28 +30,28 @@ ul {
   z-index: 100;
 }
 
-.mainnav {
+.main-nav {
   float: right;
   li {
     float: left;
     margin: 10px;
-    a{
-      text-decoration: none;
-      padding: 15px;
-      background: white;
+    a {
       color: $blue;
       display: block;
-    }
-    a:hover{
+      padding: 15px;
+      text-decoration: none;
+      background-color: white;
+      }
+    a:hover {
       color: white;
-      background: $blue;
+      background-color: $blue;
     }
   }
 }
 
 .dropdown {
   position: relative;
-  .dropnav {
+  .drop-nav {
     position: absolute;
     display: none;
     li {
@@ -61,7 +61,7 @@ ul {
   }
 }
 
-.dropdown:hover .dropnav{
+.dropdown:hover .drop-nav{
 display: block;
 }
 
