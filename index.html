@@ -12,23 +12,25 @@
 
   <body>
     <header>
-      <video poster="images/Up.jpg">
+      <video poster="images/Up.jpg" autoplay loop>
         <source src="images/video/Up.webm" type="video/webm">
         <source src="images/video/Up.ogv" type="video/ogv">
         <source src="images/video/Up.mp4" type="video/mp4">
       </video>
-      <nav>
-        <img src="images/logo-header.png" alt="logo">
-        <ul>
-          <li><a href="#">About Us</a></li>
-          <ul>
-            <li><a href="#">Our Mission</a></li>
-            <li><a href="#">Our Staff</a></li>
-            <li><a href="#">Our Partners</a></li>
+      <div class="headerbox">
+        <nav>
+          <img src="images/logo-header.png" alt="logo">
+          <ul class="mainnav">
+            <li><a href="#">About Us</a></li>
+            <ul class="dropdown">
+              <li><a href="#">Our Mission</a></li>
+              <li><a href="#">Our Staff</a></li>
+              <li><a href="#">Our Partners</a></li>
+            </ul>
+            <li><a href="#">Take Action</a></li>
           </ul>
-          <li><a href="#">Take Action</a></li>
-        </ul>
-      </nav>
+        </nav>
+      </div>
       <div class="headtext">
         <h1>NC Conservation Network</h1>
         <p>Protecting North Carolina's air, water, and quality of life</p>
@@ -72,5 +74,5 @@
       <p>info@ncconservationnetwork.org</p>
     </footer>
   </body>
-  
+
 </html>
